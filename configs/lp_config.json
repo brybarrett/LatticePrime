@@ -1,0 +1,9 @@
+{
+  "loop_delay_seconds": 20,
+  "timeout_seconds": 8,
+  "novelty_threshold": 0.25,
+  "alpha": 0.05,
+  "min_effect": 0.2,
+  "block_every_events": 50,
+  "discovery_jitter_ms": 200
+}

@@ -1,0 +1,9 @@
+{
+  "max_events_per_run": 25,
+  "rate_limits": {
+    "max_requests_per_minute": 30
+  },
+  "entropy_stagnation_bits_per_bit": 0.6,
+  "cpu_pct": 75,
+  "disk_gb": 2
+}

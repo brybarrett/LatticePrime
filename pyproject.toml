@@ -1,0 +1,26 @@
+
+---
+
+# ⚙️ `pyproject.toml`
+
+```toml
+[project]
+name = "latticeprime"
+version = "0.1.0"
+description = "Self-Updating Asymmetry Mint (Prime)"
+requires-python = ">=3.9"
+dependencies = [
+  "requests>=2.32.3",
+  "numpy>=1.26.0",
+  "scipy>=1.11.0",
+  "pandas>=2.1.0",
+  "orjson>=3.9.0",
+  "pyyaml>=6.0.1"
+]
+
+[project.scripts]
+latticeprime = "lp_main:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
